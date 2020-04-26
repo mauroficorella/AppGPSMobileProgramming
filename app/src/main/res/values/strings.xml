@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Geolocalizzazione</string>
+    <string name="dialog_message">Permessi negati! Consentire?</string>
+    <string name="dialog_title">Errore, impossibile continuare</string>
+    <string name="permission_button_accept">Consenti</string>
+    <string name="permission_button_deny">Nega</string>
+    <string name="location_permission_denied_message">Permesso negato</string>
+    <string name="gps_network_not_enabled">GPS non attivo. Vuoi aprire le Impostazioni?</string>
+    <string name="open_location_settings">Apri Impostazioni</string>
+    <string name="cancel">Annulla</string>
+    <color name="white">#ffffff</color>
+    <string name="get_location">Ottieni Posizione</string>
+    <string name="latitudine">Latitudine</string>
+    <string name="longitudine">Longitudine</string>
+    <string name="searching">Ricerca GPS in corso...</string>
+    <string name="cancel_request">Annulla ricerca</string>
+    <string name="gps_enabled">GPS abilitato</string>
+    <string name="search_completed">Ricerca posizione completata con successo!</string>
+    <string name="enable_localization">Abilita la geolocalizzazione</string>
+    <string name="localization_disabled">La geolocalizzazione del dispositivo è disattivata. Per continuare abilitala nelle impostazioni.</string>
+    <string name="goto_settings">Vai alle impostazioni</string>
+    <string name="dontgoto_settings">Annulla</string>
+</resources>

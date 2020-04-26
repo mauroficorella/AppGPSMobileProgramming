@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GPSActivity">
+
+    <Button
+        android:id="@+id/btnCancelRequest"
+        android:layout_width="96dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="36dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/cancel_request"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/LocationLat"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="5dip"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/LocationLong"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="112dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="5dip"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LocationLat" />
+
+    <Button
+        android:id="@+id/getPosBtn"
+        android:layout_width="149dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="36dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/get_location"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.963"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/LatLabel"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/latitudine"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/LocationLat"
+        app:layout_constraintEnd_toEndOf="@+id/LocationLat"
+        app:layout_constraintStart_toStartOf="@+id/LocationLat"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <TextView
+        android:id="@+id/LongLabel"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/longitudine"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/LocationLong"
+        app:layout_constraintEnd_toEndOf="@+id/LocationLong"
+        app:layout_constraintStart_toStartOf="@+id/LocationLong"
+        app:layout_constraintTop_toBottomOf="@+id/LocationLat"
+        app:layout_constraintVertical_bias="0.961" />
+
+    <TextView
+        android:id="@+id/tvSearchingGPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/searching"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LocationLong" />
+
+    <ProgressBar
+        android:id="@+id/progressLocationBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/getPosBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSearchingGPS"
+        app:layout_constraintVertical_bias="0.065" />
+</android.support.constraint.ConstraintLayout>
+

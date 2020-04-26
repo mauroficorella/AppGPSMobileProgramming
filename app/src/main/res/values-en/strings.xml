@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Geolocalization</string>
+    <string name="dialog_message">Permissions denied! Do you want to allow them?</string>
+    <string name="dialog_title">Error, impossible to continue</string>
+    <string name="permission_button_accept">Allow</string>
+    <string name="permission_button_deny">Deny</string>
+    <string name="location_permission_denied_message">Permission denied</string>
+    <string name="gps_network_not_enabled">GPS disabled. Do you want to go to settings?</string>
+    <string name="open_location_settings">Go to settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="get_location">Get position</string>
+    <string name="latitudine">Latitude</string>
+    <string name="longitudine">Longitude</string>
+    <string name="searching">Searching for GPS...</string>
+    <string name="gps_enabled">GPS enabled!</string>
+    <string name="cancel_request">Cancel research</string>
+    <string name="search_completed">GPS research completed successfully!</string>
+    <string name="enable_localization">Enable GPS</string>
+    <string name="localization_disabled">GPS is disabled. You need to enable it in order to continue.</string>
+    <string name="goto_settings">Go to settings</string>
+    <string name="dontgoto_settings">Cancel</string>
+</resources>
